@@ -1,13 +1,20 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
 
 :root {
-    --cor-de-fundo: #ff7dd4;
+    --cor-de-fundo: #f772c4;
+    --rosa: #db1a7b;
+    --rosa: #ff2ba6;
+    --azul-degrade: linear-gradient(97.54deg, #70b7ec 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #84bde9;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-}
-
-h1 {
-    background-color: rgb(235, 10, 148);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
